@@ -1,31 +1,55 @@
 # Brevoneu 🧠
 
-**Multimodal Healthcare AI for Early Health Risk Detection**
+> Multimodal Healthcare AI for Early Health Risk Detection
 
-Brevoneu uses non-invasive digital biomarkers across three signal modalities to detect early health risks — no wearables, no lab tests.
+Brevoneu detects early health risks using non-invasive digital biomarkers —
+no wearables, no lab tests required.
 
-## Modalities
-- 🫁 **Respiratory** — breathing pattern analysis
-- 🎙️ **Voice / Acoustic** — vocal biomarker features
-- 🤝 **Neuromuscular Tremor** — micro-tremor signal analysis
+---
 
-## Stack
+## 🔬 How It Works
+
+Brevoneu analyzes 3 signal modalities from a smartphone:
+
+| Modality | What it captures |
+|----------|-----------------|
+| 🫁 Respiratory | Breathing patterns via microphone |
+| 🎙️ Voice / Acoustic | Vocal biomarker features |
+| 🤝 Neuromuscular Tremor | Micro-tremor signal analysis |
+
+---
+
+## 🛠️ Tech Stack
+
 | Layer | Technology |
 |-------|-----------|
 | Backend API | Python + FastAPI |
 | ML / Inference | TensorFlow Lite |
 | Mobile App | Flutter (Android + iOS) |
 | Web Dashboard | React.js |
-| Infra | Docker + Nginx |
+| Infrastructure | Docker + Nginx |
 
-## Structure
-```
+---
+
+## 📁 Project Structure
+
 brevoneu/
 ├── backend/       # FastAPI server + ML pipeline
-├── mobile/        # Flutter app
+├── mobile/        # Flutter app (Android & iOS)
 ├── web/           # React.js dashboard
-├── data/          # Raw & processed biomarker data
-├── notebooks/     # Research & EDA notebooks
-├── docs/          # Architecture, API, research docs
+├── data/          # Biomarker datasets
+├── notebooks/     # Research & experiments
+├── docs/          # Architecture & API docs
 └── infra/         # Docker, Nginx, CI configs
-```
+
+---
+
+## 🚀 Status
+
+🟡 Early development — architecture phase.
+
+---
+
+## 👤 Author
+
+**Suho** — Building Brevoneu as a healthcare AI project.
