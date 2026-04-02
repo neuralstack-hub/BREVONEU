@@ -1,0 +1,54 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+dist/
+build/
+*.so
+
+# ML models (large files)
+*.h5
+*.tflite
+*.pkl
+*.pt
+*.onnx
+
+# Env files
+.env
+.env.*
+!.env.example
+
+# Data (raw sensitive data should never be committed)
+data/raw/
+data/processed/
+
+# Node / React
+node_modules/
+.next/
+out/
+web/build/
+
+# Flutter / Dart
+mobile/.dart_tool/
+mobile/.flutter-plugins
+mobile/.flutter-plugins-dependencies
+mobile/build/
+mobile/*.iml
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Notebooks checkpoints
+.ipynb_checkpoints/
+
+# Logs
+*.log
+logs/
