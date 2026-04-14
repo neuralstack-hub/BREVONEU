@@ -31,8 +31,6 @@ Brevoneu analyzes 3 signal modalities from a smartphone:
 
 ---
 
-## 📁 Project Structure
-
 ## 📂 Project Structure
 
 | Folder/File | Description |
