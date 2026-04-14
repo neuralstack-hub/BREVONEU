@@ -34,14 +34,16 @@ Brevoneu analyzes 3 signal modalities from a smartphone:
 ## 📁 Project Structure
 
 brevoneu/
-├── backend/        # FastAPI + ML pipeline
-├── mobile/         # Flutter app
-├── web/            # React dashboard
-├── data/           # (controlled datasets only)
-├── notebooks/      # experiments (Jupyter)
-├── docs/           # documentation
-├── infra/          # docker, nginx, CI/CD
-├── .github/        # workflows (CI/CD)
+│
+├── backend/        # FastAPI server + ML pipeline
+├── mobile/         # Flutter app (Android & iOS)
+├── web/            # React.js dashboard
+├── data/           # Biomarker datasets
+├── notebooks/      # Research & experiments
+├── docs/           # Architecture & API docs
+├── infra/          # Docker, Nginx, CI configs
+│
+├── .github/
 ├── .gitignore
 ├── README.md
 └── docker-compose.yml
